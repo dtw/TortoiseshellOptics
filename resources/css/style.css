@@ -2,3 +2,9 @@ html {
   font-size: 18px;
   line-height: 1.4;
 }
+
+.banner {
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  height: 31rem;
+}
