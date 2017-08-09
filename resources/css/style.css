@@ -101,3 +101,22 @@ body {
 .name {
   text-align: center;
 }
+
+.business h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.title {
+  padding: 0.5rem 1.25rem;
+  color: white;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.element {
+  width: 35%;
+  padding-right: 5%;
+}
