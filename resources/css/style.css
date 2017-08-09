@@ -120,3 +120,21 @@ body {
   width: 35%;
   padding-right: 5%;
 }
+
+/* Footer styles */
+
+.footer {
+  margin-top: 5rem;
+  background-color: azure;
+}
+
+.copyright {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.copyright img {
+  padding-right: 1rem;
+  height: 1.5rem;
+}
