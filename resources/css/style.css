@@ -49,8 +49,16 @@ body {
   align-items: center;
 }
 
+.nav div {
+  margin: 1rem 0;
+}
+
+.nav .mobile {
+  display: none;
+}
+
 .nav span {
-  padding: 1rem 2rem 1rem 0;
+  padding-right: 2rem;
 }
 
 .float {
