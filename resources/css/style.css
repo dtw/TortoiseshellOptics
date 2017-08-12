@@ -150,3 +150,117 @@ body {
   padding-right: 1rem;
   height: 1.5rem;
 }
+
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 100%;
+    position: static;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  .strap {
+    margin-top: 5rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    position: static;
+    margin-right: 2rem;
+  }
+
+  .flex-container {
+    flex-shrink: 1;
+    max-width: 90%;
+  }
+
+  .services {
+    margin: 3rem auto;
+  }
+
+  .service {
+    padding-right: 4rem;
+  }
+
+  .business {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .strap {
+    width: 100%;
+    margin-top: 9rem;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .flex-container {
+    flex-wrap: wrap;
+    max-width: 66%;
+  }
+
+  .service {
+    padding: 1.54rem;
+  }
+
+  .business .title {
+    width: 100%;
+  }
+
+  .business .element {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .flex-container.business {
+    max-width: 100%;
+  }
+  .nav .desktop {
+    display: none;
+  }
+
+  .nav .mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .services {
+    margin: 3.77rem auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .copyright {
+    justify-content: center;
+  }
+
+  .copyright img {
+    padding: 0px;
+    display: block;
+  }
+
+  .copyright span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .headline span {
+    display: none;
+  }
+
+  .detail p {
+    font-size: 0.77rem;
+  }
+}
